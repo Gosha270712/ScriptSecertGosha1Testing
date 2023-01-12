@@ -16,6 +16,10 @@ Section:NewButton("Admin Commands", "IY!", function()
 end)
 
 
+local Tab = Window:NewTab("Doors")
+local Section = Tab:NewSection("Doors main")
+
+
 Section:NewButton("Crucfix", "f4", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/Gosha270712/ScriptSecertGosha1Testing/main/Crucfix'))()
 end)
