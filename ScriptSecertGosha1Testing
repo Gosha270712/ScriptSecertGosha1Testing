@@ -11,6 +11,11 @@ Section:NewButton("Fly", "Flying!", function()
 end)
 
 
+Section:NewButton("Noclip", "Noclip!", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/RFGsP3KT"))()
+end)
+
+
 Section:NewButton("Admin Commands", "IY!", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
