@@ -1,0 +1,26 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("RobloxGoshaScriptOne", "Ocean")
+
+
+local Tab = Window:NewTab("Main")
+local Section = Tab:NewSection("Main")
+
+
+Section:NewButton("Fly", "Flying!", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/r6VKYUHM"))()
+end)
+
+
+Section:NewButton("Admin Commands", "IY!", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+
+Section:NewButton("Crucfix", "f4", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Gosha270712/ScriptSecertGosha1Testing/main/Crucfix'))()
+end)
+
+
+Section:NewButton("Hub1", "Palme", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/plamen6789/DoorsEntitySummonerGUI/main/EntityGUI'))()
+end)
