@@ -16,6 +16,9 @@ Section:NewButton("Noclip", "Noclip!", function()
 end)
 
 
+local Section = Tab:NewSection("Admin and whats")
+
+
 Section:NewButton("Admin Commands", "IY!", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
