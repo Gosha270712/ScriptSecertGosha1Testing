@@ -44,3 +44,12 @@ local Section = Tab:NewSection("Items")
 Section:NewButton("Crucfix", "f4", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/Gosha270712/ScriptSecertGosha1Testing/main/Crucfix'))()
 end)
+
+
+local Tab = Window:NewTab("Scp 3008")
+local Section = Tab:NewSection("Main")
+
+
+Section:NewButton("hub1", "zerox", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/RunDTM/scripts/main/3008.lua'))()
+end)
