@@ -53,3 +53,12 @@ local Section = Tab:NewSection("Main")
 Section:NewButton("hub1", "zerox", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/RunDTM/scripts/main/3008.lua'))()
 end)
+
+
+local Tab = Window:NewTab("ETMET")
+local Section = Tab:NewSection("Main")
+
+
+Section:NewButton("hub1", "1", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0edward'))()
+end)
